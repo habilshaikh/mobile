@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="Couple covers">
+  <rect width="520" height="520" rx="44" fill="#fff1f2"/>
+  <circle cx="116" cy="408" r="88" fill="#fbcfe8"/>
+  <circle cx="414" cy="108" r="82" fill="#ddd6fe"/>
+  <g filter="url(#shadow)">
+    <rect x="145" y="85" width="154" height="322" rx="35" fill="url(#one)" transform="rotate(-10 222 246)"/>
+    <rect x="224" y="95" width="154" height="322" rx="35" fill="url(#two)" transform="rotate(10 301 256)"/>
+    <path d="M238 246c-28-32-73 6-37 46l37 38 37-38c36-40-9-78-37-46Z" fill="#fff" opacity=".9"/>
+    <path d="M302 246c-28-32-73 6-37 46l37 38 37-38c36-40-9-78-37-46Z" fill="#fff" opacity=".9"/>
+    <rect x="166" y="112" width="52" height="52" rx="18" fill="rgba(255,255,255,.36)" transform="rotate(-10 192 138)"/>
+    <rect x="244" y="122" width="52" height="52" rx="18" fill="rgba(255,255,255,.36)" transform="rotate(10 270 148)"/>
+  </g>
+  <defs>
+    <linearGradient id="one" x1="145" x2="299" y1="85" y2="407">
+      <stop stop-color="#ec4899"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="two" x1="224" x2="378" y1="95" y2="417">
+      <stop stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <filter id="shadow" x="84" y="46" width="360" height="430" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="26" stdDeviation="24" flood-color="#111827" flood-opacity=".18"/>
+    </filter>
+  </defs>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="Custom name mobile cover">
+  <rect width="520" height="520" rx="44" fill="#fff7ed"/>
+  <circle cx="418" cy="112" r="68" fill="#fed7aa"/>
+  <circle cx="110" cy="416" r="88" fill="#ede9fe"/>
+  <g filter="url(#shadow)">
+    <rect x="168" y="54" width="190" height="392" rx="42" fill="url(#case)"/>
+    <rect x="188" y="76" width="150" height="348" rx="31" fill="none" stroke="rgba(255,255,255,.46)" stroke-width="9"/>
+    <rect x="204" y="98" width="64" height="64" rx="21" fill="rgba(255,255,255,.38)"/>
+    <circle cx="224" cy="119" r="10" fill="#111827" opacity=".28"/>
+    <circle cx="247" cy="142" r="10" fill="#111827" opacity=".24"/>
+    <rect x="206" y="236" width="116" height="54" rx="18" fill="#fff" opacity=".88"/>
+    <path d="M226 263h76" stroke="#f97316" stroke-width="12" stroke-linecap="round"/>
+    <path d="M211 336c34-20 70-20 106 0" stroke="#fff" stroke-width="12" stroke-linecap="round" opacity=".55"/>
+  </g>
+  <defs>
+    <linearGradient id="case" x1="170" x2="356" y1="58" y2="442">
+      <stop stop-color="#fb923c"/>
+      <stop offset=".55" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <filter id="shadow" x="112" y="16" width="306" height="480" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="26" stdDeviation="24" flood-color="#f97316" flood-opacity=".22"/>
+    </filter>
+  </defs>
+</svg>

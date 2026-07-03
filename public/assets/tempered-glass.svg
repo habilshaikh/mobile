@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="Privacy tempered glass">
+  <rect width="520" height="520" rx="44" fill="#ecfeff"/>
+  <circle cx="100" cy="110" r="72" fill="#cffafe"/>
+  <circle cx="426" cy="410" r="84" fill="#dbeafe"/>
+  <g filter="url(#shadow)">
+    <rect x="174" y="58" width="174" height="386" rx="36" fill="rgba(8,145,178,.12)" stroke="#06b6d4" stroke-width="8"/>
+    <rect x="194" y="84" width="134" height="334" rx="24" fill="url(#glass)" opacity=".86"/>
+    <path d="M206 386 317 112" stroke="#fff" stroke-width="20" stroke-linecap="round" opacity=".72"/>
+    <path d="M220 110h82" stroke="#0891b2" stroke-width="8" stroke-linecap="round" opacity=".35"/>
+  </g>
+  <defs>
+    <linearGradient id="glass" x1="194" x2="328" y1="84" y2="418">
+      <stop stop-color="#67e8f9"/>
+      <stop offset=".52" stop-color="#e0f2fe"/>
+      <stop offset="1" stop-color="#94a3b8"/>
+    </linearGradient>
+    <filter id="shadow" x="120" y="20" width="290" height="470" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#0891b2" flood-opacity=".18"/>
+    </filter>
+  </defs>
+</svg>

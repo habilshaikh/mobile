@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="Designer marble mobile cover">
+  <rect width="520" height="520" rx="44" fill="#fdf2f8"/>
+  <path d="M70 133c103 62 211 71 324 28" stroke="#fbcfe8" stroke-width="42" stroke-linecap="round"/>
+  <path d="M104 399c90-71 194-92 312-61" stroke="#ddd6fe" stroke-width="42" stroke-linecap="round"/>
+  <g filter="url(#shadow)">
+    <rect x="167" y="55" width="190" height="390" rx="42" fill="#fff"/>
+    <path d="M170 171c58-26 121-18 188 24v85c-64-56-127-68-188-35Z" fill="#f9a8d4"/>
+    <path d="M170 302c58 28 120 25 188-10v92c-62 35-126 37-188 8Z" fill="#c084fc"/>
+    <rect x="187" y="76" width="152" height="348" rx="31" fill="none" stroke="rgba(255,255,255,.72)" stroke-width="9"/>
+    <rect x="202" y="98" width="64" height="64" rx="21" fill="rgba(17,24,39,.09)"/>
+    <circle cx="222" cy="119" r="10" fill="#7c3aed" opacity=".28"/>
+    <circle cx="246" cy="142" r="10" fill="#7c3aed" opacity=".22"/>
+    <path d="M202 221c45-32 90-34 135-6M204 337c43 24 87 22 130-8" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+  </g>
+  <defs>
+    <filter id="shadow" x="112" y="16" width="306" height="480" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="26" stdDeviation="24" flood-color="#7c3aed" flood-opacity=".18"/>
+    </filter>
+  </defs>
+</svg>
